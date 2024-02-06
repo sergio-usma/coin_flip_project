@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   font-size: 1.6rem;
   color: #fff;
-  background: linear-gradient(to right, #0968e5, #091970);
+  background: url("./assets/sand4.png") no-repeat center center/cover;
 }
 
 header {

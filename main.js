@@ -29,7 +29,7 @@ function flipCoin() {
     setTimeout(() => {
       processResult(result);
     }, 2800);
-  }, 100);
+  }, 50);
 }
 
 button.addEventListener('click', flipCoin);
