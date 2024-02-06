@@ -28,7 +28,7 @@
 
 # 📖 Key Codes Project <a name="about-project"></a>
 
-**Coin Flip** is a simple game that allows the user to flip a coin and get a random result of either "Head" or "Tail". The project was developed using HTML5, CSS3 and basic javascript DOM manipulation with basic addEventListeners to listen the key pressed by the user.
+**Coin Flip** is a simple game that allows the user to flip a coin and get a random result of either "Head" or "Tail". The project was developed using HTML5, CSS3 and basic javascript DOM manipulation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,7 +54,7 @@ The project was developed using the following technologies:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://sergio-usma.github.io/key_codes_project/)
+- [Live Demo Link](https://sergio-usma.github.io/coin_flip_project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
