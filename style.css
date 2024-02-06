@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background: linear-gradient(to right, #0968e5, #091970);
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#coin {
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  margin: 2rem 0;
+}
+
+#coin div {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #091970;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  background-size: contain;
+  position: absolute;
+}
+
+.headsClass {
+  background-image: url("./assets/cara.png");
+}
+
+.animate-heads {
+  animation: flipHeads 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipHeads {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(1800deg);
+  }
+}
+
+.tailsClass {
+  background-image: url("./assets/sello.png");
+  transform: rotateY(-180deg);
+}
+
+.animate-tails {
+  animation: flipHeads 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipTails {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(1620deg);
+  }
+}
