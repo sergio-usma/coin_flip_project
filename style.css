@@ -25,6 +25,7 @@ body {
 }
 
 button {
+  min-width: 10rem;
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -34,6 +35,7 @@ button {
   width: 25rem;
   height: 25rem;
   margin: 2rem 0;
+  transform-style: preserve-3d;
 }
 
 #coin div {
@@ -51,7 +53,7 @@ button {
 }
 
 .animate-heads {
-  animation: flipHeads 3s;
+  animation: flipHeads 2300ms;
   animation-fill-mode: forwards;
 }
 
@@ -71,7 +73,7 @@ button {
 }
 
 .animate-tails {
-  animation: flipHeads 3s;
+  animation: flipTails 2300ms;
   animation-fill-mode: forwards;
 }
 
